@@ -37,6 +37,7 @@ dependencies:
   simple_alert_dialog: ^1.0.1
   cherry_toast: ^1.13.0
   salomon_bottom_bar: ^3.3.2  
+  fluttertoast: ^9.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter

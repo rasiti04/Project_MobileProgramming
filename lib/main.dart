@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:praktek/page/beranda_page.dart';
 import 'package:praktek/page/profile_page.dart';
 import 'package:praktek/page/list_page.dart';
+import 'package:praktek/pertemuan6/dashboard.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 
 void main() {
@@ -28,7 +29,7 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  final List<Widget> pages = [ BerandaPage(), ProfilePage(), ListPage()];
+  final List<Widget> pages = [ BerandaPage(), ProfilePage(), ListPage(), DashboardPage()];
   
   int currentIndex = 0;
 
@@ -56,6 +57,12 @@ class _MainPageState extends State<MainPage> {
             title: const Text("Profile"),
             selectedColor: Colors.blue,
           ),
+          SalomonBottomBarItem(
+            icon: const Icon(Icons.list),
+            title: const Text("List"),
+            selectedColor: Colors.orange,
+          ),
+          
           SalomonBottomBarItem(
             icon: const Icon(Icons.list),
             title: const Text("List"),
