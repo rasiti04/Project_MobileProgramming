@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:praktek/main.dart';
+
 import 'package:praktek/page/pertemuan_page.dart';
 import 'package:praktek/page/profile_page.dart';
 

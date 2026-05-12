@@ -5,6 +5,7 @@ import 'package:praktek/page/list_page.dart';
 import 'package:praktek/pertemuan6/dashboard.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 
+
 void main() {
   runApp(const MyApp());
 }

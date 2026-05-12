@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:praktek/page/list_page.dart';
 import 'package:praktek/pertemuan6/pertemuan6.dart';
 import 'package:praktek/pertemuan7/peertemuan7.dart';
+import 'package:praktek/page/pertemuan8/pertemuan8.dart';
 
 class DashboardPage extends StatelessWidget {
   final List<Map<String, dynamic>> menuItems = [
@@ -23,12 +24,12 @@ class DashboardPage extends StatelessWidget {
       "color": Colors.orange,
       "page": RadiobuttonPage(), // pastikan nama class BENAR
     },
-    // {
-    //   "title": "Pertemuan 8",
-    //   "icon": Icons.auto_stories,
-    //   "color": Colors.purple,
-    //   "page": AutocompletespinPage(),
-    // },
+     {
+       "title": "Pertemuan 8",
+       "icon": Icons.auto_stories,
+       "color": Colors.purple,
+       "page": AutocompletespinPage(),
+     },
   ];
 
   @override
